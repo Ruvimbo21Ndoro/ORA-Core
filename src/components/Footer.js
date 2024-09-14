@@ -1,0 +1,22 @@
+import React from 'react'
+import { Instagram} from '@mui/icons-material'
+import {Twitter} from '@mui/icons-material'
+import { Facebook} from '@mui/icons-material'
+import { LinkedIn} from '@mui/icons-material'
+import "../styles/Footer.css";
+
+function Footer()  {
+  return (
+
+    <div className='footer'>
+
+<div className='socialMedia'>
+   <Instagram/> <Twitter/> <Facebook/> <LinkedIn/>
+</div>
+<p> &copy; Ora-Core Software Solutions</p>
+    
+</div>
+  )
+}
+
+export default Footer
